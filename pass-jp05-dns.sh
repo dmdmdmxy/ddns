@@ -15,7 +15,7 @@ set -euo pipefail
 # Cloudflare 相关凭据（务必替换为你自己的）
 CF_API_TOKEN="ZCi8YCsNVEzJJt32-QB7QsQlY6A8dxwwqMKmM7dF"
 CF_ROOT_DOMAIN="fxscloud.com"      # 你的主域名
-CF_SUBDOMAIN="jp05.fxscloud.com"   # 要更新的子域名（全称）
+CF_SUBDOMAIN="pass.jp005.fxscloud.com"   # 要更新的子域名（全称）
 
 # 本地缓存文件路径（保存上一次成功更新的 IP）
 IP_CACHE_FILE="/var/run/ddns_ec2_current_ip.txt"
